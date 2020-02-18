@@ -39,9 +39,9 @@ if (myName === 'yes' || myName === 'y') {
 
 var myAge = prompt("Do you think  my age is 24?");
 myAge = myAge.toLowerCase();
-if (myAge === 'yes' || myName === 'y') {
+if (myAge === 'yes' || myAge === 'y') {
     //console.log("Do you think  my age is 24?" , myAge);
-    alert('Yes my age is 25');
+    alert('Yes my age is 24');
     mark = mark + 1 ;
 } else if (myAge === 'no' || myAge === 'n') {
     //console.log("Do you think  my age is 24?" , myAge);
@@ -104,15 +104,32 @@ for (var f = 0; f < 6; f++) {
     var favCar1 = prompt("What is my fav car ? ")
     //console.log(favCar1);
     favCar1 = favCar1.toLowerCase();
-    if (favCar1 == favCar[0] || favCar1 == favCar[1] || favCar1 == favCar[2] || favCar1 == favCar[3] || favCar1 == favCar[4] || favCar1 == favCar[5]) {
+    var j  ;
+    var count=0;
+    for(j=0; j<favCar.length;j++){
+        if(favCar[j]==favCar1){
+            alert('yes i love it');
+            mark = mark + 1 
+            break;
+        }else{
+            count++;
+            if (count == favCar.length){
+                alert('No i dont love it');
+            }
+        } 
+    }
+    if(count<favCar.length){
+        break;  
+    }
+    /*if (favCar1 == favCar[0] || favCar1 == favCar[1] || favCar1 == favCar[2] || favCar1 == favCar[3] || favCar1 == favCar[4] || favCar1 == favCar[5]) {
         alert('yes i love it');
         mark = mark + 1 
         break;
     } else if (favCar1 !== favCar[0] || favCar1 !== favCar[1] || favCar1 !== favCar[2] || favCar1 !== favCar[3] || favCar1 !== favCar[4] || favCar1 !== favCar[5]) {
         alert('No i dont love it');
-    }
+    }*/
 }
-if (f === 6) {
+if (f === favCar.length) {
     alert(`my favorite car are ${favCar}`);
 }
 alert (`you git this mark ${mark}`);
