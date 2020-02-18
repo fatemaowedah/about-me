@@ -115,5 +115,5 @@ for (var f = 0; f < 6; f++) {
 if (f === 6) {
     alert(`my favorite car are ${favCar}`);
 }
-alert (mark);
+alert (`you git this mark ${mark}`);
 alert(`thank you for answer my Questions ${name} you can know more read the pargraph`);

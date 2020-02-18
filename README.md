@@ -14,7 +14,7 @@ this is all about my personal website have information about me.
 * git hub
 
 ## What i add:
-Today i am adding 2 Question using prompt , array , for , concole.log , css
+Today i am adding 2 Question using prompt , array , for , concole.log , css for anew html element , add anew html element like ol and ul .
 
 
 
