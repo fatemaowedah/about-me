@@ -13,5 +13,8 @@ this is all about my personal website have information about me.
 * ubuntu 
 * git hub
 
+## What i add:
+Today i am adding 2 Question using prompt , array , for , concole.log , css
+
 
 
