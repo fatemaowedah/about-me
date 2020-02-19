@@ -90,7 +90,7 @@ function myFavPet2() {
     } else {
 
         alert('Choose yes or no');
-        myFavDrin = prompt("Do you think my fav pet is Cat?");
+        myFavPet = prompt("Do you think my fav pet is Cat?");
     }
 }
 myFavPet2();
