@@ -73,7 +73,8 @@ function myFavPDrin2() {
         alert('Choose yes or no');
         myFavDrin = prompt("Do you think my fav drink is Coffee?");
     }
-}
+} myFavPDrin2();
+
 function myFavPet2() {
 
     var myFavPet = prompt("Do you think my fav pet is Cat?");
@@ -93,10 +94,11 @@ function myFavPet2() {
     }
 }
 myFavPet2();
+
 function q6() {
 
     for (var i = 0; i < 4; i++) {
-        var number = parseIntprompt("I think in number between 1 and 40 do think you can guess it ? ".)
+        var number = parseInt(prompt("I think in number between 1 and 40 do think you can guess it ? "));
         //console.log(number);
         if (number == 26) {
             alert('yes i am think in number 26');
