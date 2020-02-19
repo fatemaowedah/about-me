@@ -118,9 +118,9 @@ for (var f = 0; f < 6; f++) {
             }
         } 
     }
-    if(count<favCar.length){
+   // if(count<favCar.length){
         break;  
-    }
+    //}
     /*if (favCar1 == favCar[0] || favCar1 == favCar[1] || favCar1 == favCar[2] || favCar1 == favCar[3] || favCar1 == favCar[4] || favCar1 == favCar[5]) {
         alert('yes i love it');
         mark = mark + 1 
