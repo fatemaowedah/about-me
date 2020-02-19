@@ -96,7 +96,7 @@ myFavPet2();
 function q6() {
 
     for (var i = 0; i < 4; i++) {
-        var number = prompt("I think in number between 1 and 40 do think you can guess it ? ")
+        var number = parseIntprompt("I think in number between 1 and 40 do think you can guess it ? ".)
         //console.log(number);
         if (number == 26) {
             alert('yes i am think in number 26');
