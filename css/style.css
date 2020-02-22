@@ -1,41 +1,172 @@
 
 body{
-    background-color: rgb(196, 192, 192);
-   
+    background-color: white;
+    padding:0px;
+    
+}
+header{
+    background-color: plum;
+    padding: 100px 0px;
+    margin: 0px;
+    height: 130px;
+    
 }
 
+.div1{
+    width: 80%;
+    margin: 0px auto;
+}
 H1{
-    font-size: 50px;
-    text-align: center;
+    
+    font-size: 25px;
+    text-align:left;
     text-decoration: none;
-    border: 20px hidden black;
-    background-color: black;
-    margin: 20px;
-    padding: 20px;
-    color: white;
+    border: 40px hidden black;
+    background-color: plum;
+    margin-bottom: 40px;
+    color:navy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-left: 175px;
+
+    
+}
+.div2{
+    width:50%;
+    float:right; 
+}
+.div3{
+    width:50%;
+    float:left ;
+    margin-top: 150px;
+}
+.img1{
+    width:90%;
+     margin-top: -150px; 
+}
+.div4{
+    width:83% ; 
+    margin: 0px auto;
+    clear: both; 
+    padding-left: 260px;
+    padding-bottom: 0px;
+    background-color:lightgrey; 
+    height: 600px;
+}
+.div5{
+    width:33.3%; 
+    float: left;
+    display: inline-block;
+    margin-top: 50px; 
+}
+.div6{
+    width:33.3%; 
+    float: left; 
+    display: inline-block;
+    margin-top: 50px;
+}
+.div7{
+    width:100% ; 
+    margin: 0px auto; 
+    margin-top:0px; 
+}
+.h2{
+    padding-bottom: 0px;
+    width: 50%;
+    text-align: center;
+}
+.div8{
+    width:50%;
+    float: left;
+    display: inline-block;
+    background-image:url(/img/tech1.jpg) ;
+    background-size: cover;
+    height: 550px;
+    margin-top: -150px;
+}
+.ul1{
+    margin-top: 460px;
+    padding-left: 150px;
+}
+.li1{
+    color:black;
+    margin-top: 80px;
+}
+.div9{
+    width:50%;
+    float: left;
+    display: inline-block;
+    background-image:url(/img/ittt.jpg) ;
+    background-size: cover;
+    height: 550px;
+    margin-top: -150px;
+}
+.ul2{
+    margin-top:460px; 
+    padding-left: 250px; 
+}
+.li2{
+    color:black;
+    margin-top: 80px;
+}
+.div10{
+    width:65% ;
+    margin: 0px auto;
+    margin-top: 500px; 
+}
+.div11{
+    padding-left: 25px; 
+}
+.div12{
+   height: 200px; 
+   float: left; 
+   display: inline-block; 
+   padding-left: 100px;
+   margin-top: 30px;
+}
+.div13{
+    height: 200px;
+    float: left;
+    display: inline-block;
+    padding-left: 300px;
+    margin-top: 30px;
 }
 H2{
     font-size: 40px;
     text-align: left;
     text-decoration: none;
-    border: 20px hidden black;
-    margin: 20px;
-    padding: 20px;
-    color: white;
-    border-bottom: 5px solid black;
+    margin: 0px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+H3{
+  font-size: 40px;
+  text-align: left;
+  text-decoration: none;
+  margin: 0px 20px 20px 20px;
+  padding: 0px 20px 20px 390px;
+  color:black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       
+   
 }
 
 article{
-    background-color: gray;
+    margin:25px 0px;
+    /*background-color: gray;
     margin:5px;
     padding: 5px;
-    border:5px solid black;
+    border:5px solid black;*/
    
 }
 p{
-    font-size: 20px;
+    font-size: 27px;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: gray;
     text-align: left;
     padding-left: 40px;
 }
@@ -45,22 +176,54 @@ ul{
     text-align: left;
     color: black;
     padding-left: 40px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 ul li {
-    color: black;
-    font-size: 20px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: left;
+    
 }
 
 ol{
     list-style-type: decimal ;
     text-align: left;
     color: black;
-    padding-left: 40px;
+    padding-left: 100px;
+    padding-bottom: 0px;
 }
 ol li {
-    color: black;
-    font-size: 20px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: left;
+    padding-bottom: 0px;
+}
+.icons{
+    width:70px;
+    height:70px;
+}
+.p1{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: center;
+    padding-left: -440px;
 }
 
+footer {
+    clear: both;
+    background-color: plum;
+    height: 100px;
+}
+footer p {
+    text-align: center;
+    padding-top: 20px;
+    color: navy;
+    font-size: 18px;
+}
+footer img{
+    padding-left:755px;
+}
